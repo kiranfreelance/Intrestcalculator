@@ -14,7 +14,7 @@ export default function App() {
     { name: "Govindlu", date: "01/11/2021", amount: 100000, rate: "2.00" },
     { name: "Bike", date: "28/11/2021", amount: 200000, rate: "2.00" },
     { name: "Bike", date: "04/12/2021", amount: 50000, rate: "2.00" },
-    { name: "Bike", date: "01/07/2022", amount: 100000, rate: "2.50" },
+    { name: "Bike", date: "01/08/2022", amount: 100000, rate: "2.50" },
     { name: "Sattibabu", date: "03/11/2022", amount: 60000, rate: "2.50" },
     { name: "Ponamanda", date: "27/02/2023", amount: 200000, rate: "2.50" },
     { name: "Anji", date: "12/09/2022", amount: 100000, rate: "2.00" },
