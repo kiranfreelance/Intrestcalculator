@@ -17,7 +17,9 @@ export default function App() {
     { name: "Bike", date: "01/07/2022", amount: 100000, rate: "2.50" },
     { name: "Sattibabu", date: "03/11/2022", amount: 60000, rate: "2.50" },
     { name: "Ponamanda", date: "27/02/2023", amount: 200000, rate: "2.50" },
-    { name: "Anji", date: "12/12/2022", amount: 150000, rate: "2.00" },
+    { name: "Anji", date: "12/09/2022", amount: 100000, rate: "2.00" },
+    { name: "Anji", date: "12/09/2022", amount: 6000, rate: "0.00" },
+
   ]);
   const [filteredList, setFilteredList] = useState([]);
   const [selectedPerson, setSelectedPerson] = useState("");
@@ -32,7 +34,7 @@ export default function App() {
     const monthsInt = perMonth * months;
     const daysInt = (perMonth / 30) * days;
     const totalIntrest = yearsInt + monthsInt + daysInt;
-    return Math.round(totalIntrest);
+    return totalIntrest;
   };
 
   useEffect(() => {
