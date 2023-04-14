@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import DashBoard from './pages/dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.Fragment>
-    <App />
+    <DashBoard />
   </React.Fragment>
 );
 serviceWorkerRegistration.register();
