@@ -27,7 +27,6 @@ export default function App() {
     const endDt = moment(endDate, "DD/MM/YYYY");
     const dtDiff = moment.preciseDiff(startDt, endDt, true);
     const { years, months, days } = dtDiff;
-    console.log("years, months, days",years, months, days);
     const perMonth = item.rate * 1000 * (item.amount / 100000);
     const yearsInt = perMonth * 12 * years;
     const monthsInt = perMonth * months;
@@ -41,13 +40,15 @@ export default function App() {
       return { ...item, intrest: getIntrest(item) };
     });
     setTempArr(borrowIntrest);
-  }, [endDate,filteredList]);
+  }, [endDate, filteredList]);
 
   useEffect(() => {
     if (selectedPerson === "") {
       setFilteredList(actualList);
     } else {
-      const filteredList = actualList.filter((item) => item.name === selectedPerson);
+      const filteredList = actualList.filter(
+        (item) => item.name === selectedPerson
+      );
       setFilteredList(filteredList);
     }
   }, [selectedPerson]);
@@ -60,7 +61,6 @@ export default function App() {
   }, 0);
 
   const uniqueBarrowers = [...new Set(actualList.map((item) => item.name))];
-  console.log("uniqueBarrowers", tempArr,filteredList);
   return (
     <div className="App">
       End date:
@@ -91,19 +91,17 @@ export default function App() {
               <td>{item.name}</td>
               <td>{item.date}</td>
               <td>
-                {new Intl.NumberFormat("en-IN", {
+                {`${new Intl.NumberFormat("en-IN", {
                   style: "currency",
                   currency: "INR",
-                }).format(item.amount)}{" "}
-                /-
+                }).format(item.amount)}/-`}
               </td>
               <td>{item.rate}</td>
               <td>
-                {new Intl.NumberFormat("en-IN", {
+                {`${new Intl.NumberFormat("en-IN", {
                   style: "currency",
                   currency: "INR",
-                }).format(getIntrest(item))}{" "}
-                /-
+                }).format(getIntrest(item))}/-`}
               </td>
             </tr>
           );
@@ -113,22 +111,19 @@ export default function App() {
           <td></td>
           <td>
             <b>
-              {new Intl.NumberFormat("en-IN", {
+              {`${new Intl.NumberFormat("en-IN", {
                 style: "currency",
                 currency: "INR",
-              }).format(actualTotal)}{" "}
-              /-
+              }).format(actualTotal)}/-`}
             </b>
           </td>
-          
           <td></td>
           <td>
             <b>
-              {new Intl.NumberFormat("en-IN", {
+              {`${new Intl.NumberFormat("en-IN", {
                 style: "currency",
                 currency: "INR",
-              }).format(intrestTotal)}{" "}
-              /-
+              }).format(intrestTotal)}/-`}
             </b>
           </td>
         </tr>
