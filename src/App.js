@@ -19,7 +19,6 @@ export default function App() {
     { name: "Ponamanda", date: "27/02/2023", amount: 200000, rate: "2.50" },
     { name: "Anji", date: "12/09/2022", amount: 100000, rate: "2.00" },
     { name: "Anji", date: "12/09/2022", amount: 6000, rate: "0.00" },
-
   ]);
   const [filteredList, setFilteredList] = useState([]);
   const [selectedPerson, setSelectedPerson] = useState("");
@@ -67,13 +66,14 @@ export default function App() {
     <div className="App">
       End date:
       <input
+        style={{ height: "30px" }}
         type="date"
         onChange={(e) =>
           setEndDate(moment(e.target.value).format("DD/MM/YYYY"))
         }
       />
       Borrower:
-      <select onChange={(e) => setSelectedPerson(e.target.value)}>
+      <select onChange={(e) => setSelectedPerson(e.target.value)} style={{ height: "30px" }}>
         <option value={""}>{"Select"}</option>
         {uniqueBarrowers.map((item) => (
           <option value={item}>{item}</option>
