@@ -1,10 +1,12 @@
 import React from "react";
 import { getIntrest } from "../helper";
 
-export default function BorrowerTable({ filteredList, intrestAmt,endDate }) {
-  const actualTotal = filteredList.reduce(function (acc, obj) {
-    return acc + obj.amount;
-  }, 0);
+export default function BorrowerTable({ filteredList, intrestAmt, endDate }) {
+  const actualTotal = filteredList
+    .filter((item) => item.status === true)
+    .reduce(function (acc, obj) {
+      return acc + obj.amount;
+    }, 0);
   const intrestTotal = intrestAmt.reduce(function (acc, obj) {
     return acc + obj.intrest;
   }, 0);
@@ -34,7 +36,7 @@ export default function BorrowerTable({ filteredList, intrestAmt,endDate }) {
                 {`${new Intl.NumberFormat("en-IN", {
                   style: "currency",
                   currency: "INR",
-                }).format(getIntrest(item,endDate))}/-`}
+                }).format(getIntrest(item, endDate))}/-`}
               </td>
             </tr>
           );
