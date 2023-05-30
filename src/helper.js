@@ -74,7 +74,7 @@ export const actualList = [
     date: "12/09/2022",
     amount: 6000,
     rate: "0.00",
-    status: false,
+    status: true,
   },
 ];
 
