@@ -49,6 +49,14 @@ export const actualList = [
     status: true,
   },
   {
+    name: "Bike",
+    date: "20/07/2023",
+    amount: 100000,
+    rate: "2.50",
+    status: true,
+  },
+
+  {
     name: "Sattibabu",
     date: "03/11/2022",
     amount: 60000,
