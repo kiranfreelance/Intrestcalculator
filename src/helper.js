@@ -2,34 +2,34 @@ import moment from "moment";
 require("moment-precise-range-plugin");
 
 export const actualList = [
-  {
-    name: "Venkateshulu",
-    date: "23/02/2022",
-    amount: 250000,
-    rate: "0.00",
-    status: false,
-  },
-  {
-    name: "Venkateshulu",
-    date: "22/02/2023",
-    amount: 75000,
-    rate: "0.00",
-    status: false,
-  },
-  {
-    name: "Venkateshulu",
-    date: "22/02/2023",
-    amount: 325000,
-    rate: "2.50",
-    status: true,
-  },
-  {
-    name: "Venkateshulu",
-    date: "12/06/2022",
-    amount: 115000,
-    rate: "3.00",
-    status: true,
-  },
+  // {
+  //   name: "Venkateshulu",
+  //   date: "23/02/2022",
+  //   amount: 250000,
+  //   rate: "0.00",
+  //   status: false,
+  // },
+  // {
+  //   name: "Venkateshulu",
+  //   date: "22/02/2023",
+  //   amount: 75000,
+  //   rate: "0.00",
+  //   status: false,
+  // },
+  // {
+  //   name: "Venkateshulu",
+  //   date: "22/02/2023",
+  //   amount: 325000,
+  //   rate: "2.50",
+  //   status: true,
+  // },
+  // {
+  //   name: "Venkateshulu",
+  //   date: "12/06/2022",
+  //   amount: 115000,
+  //   rate: "3.00",
+  //   status: true,
+  // },
   // { name: "Venkateshulu", date: "15/06/2022", amount: 15000, rate: "3.00" },
   // {
   //   name: "Govindlu",
