@@ -30,7 +30,6 @@ export const actualList = [
   //   rate: "3.00",
   //   status: true,
   // },
-  // { name: "Venkateshulu", date: "15/06/2022", amount: 15000, rate: "3.00" },
   // {
   //   name: "Govindlu",
   //   date: "01/11/2021",
@@ -41,13 +40,6 @@ export const actualList = [
   // { name: "Bike", date: "28/11/2021", amount: 200000, rate: "2.00",status:'paid'},
   // { name: "Bike", date: "04/12/2021", amount: 50000, rate: "2.00" ,status:'paid'},
   // { name: "Bike", date: "01/08/2022", amount: 100000, rate: "2.50" ,status:'paid'},
-  {
-    name: "Bike",
-    date: "01/04/2023",
-    amount: 220000,
-    rate: "2.00",
-    status: true,
-  },
   {
     name: "Hanuman tmpl",
     date: "29/07/2023",
@@ -62,18 +54,24 @@ export const actualList = [
     rate: "2.50",
     status: true,
   },
-
   {
-    name: "Sattibabu",
-    date: "03/11/2022",
-    amount: 60000,
-    rate: "2.50",
+    name: "Bike",
+    date: "01/04/2023",
+    amount: 220000,
+    rate: "2.00",
     status: true,
   },
   {
     name: "Ponamanda",
     date: "27/02/2023",
     amount: 200000,
+    rate: "2.50",
+    status: true,
+  },
+  {
+    name: "Sattibabu",
+    date: "03/11/2022",
+    amount: 60000,
     rate: "2.50",
     status: true,
   },
