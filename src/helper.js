@@ -47,13 +47,7 @@ export const actualList = [
     rate: "2.00",
     status: true,
   },
-  {
-    name: "Ponamanda",
-    date: "27/02/2023",
-    amount: 200000,
-    rate: "2.50",
-    status: true,
-  },
+  // { name: "Ponamanda", date: "27/02/2023", amount: 200000, rate: "2.50", status: true, },
   {
     name: "Sattibabu",
     date: "03/11/2022",
