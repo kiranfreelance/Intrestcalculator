@@ -15,7 +15,7 @@ export default function DashBoard() {
   const [openModal, setOpenModal] = useState(false);
 
   useEffect(() => {
-    const borrowIntrest = filteredList.map((item) => {
+        const borrowIntrest = filteredList.map((item) => {
       return { ...item, intrest: getIntrest(item, endDate) };
     });
     setIntrestAmt(borrowIntrest);
