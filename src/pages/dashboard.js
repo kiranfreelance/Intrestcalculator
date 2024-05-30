@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import BorrowerTable from "./borrowerTable";
 import { actualList, getIntrest } from "../helper";
 import FindIntrest from "./findIntrest";
+import CalculationComponent from "./find18pencent";
 require("moment-precise-range-plugin");
 
 export default function DashBoard() {
@@ -13,6 +14,7 @@ export default function DashBoard() {
   const [filteredList, setFilteredList] = useState([]);
   const [selectedPerson, setSelectedPerson] = useState("");
   const [openModal, setOpenModal] = useState(false);
+  const [close18Percent,setClose18Percent]=useState(false)
 
   useEffect(() => {
         const borrowIntrest = filteredList.map((item) => {
@@ -59,6 +61,8 @@ export default function DashBoard() {
         endDate={endDate}
       />
       <FindIntrest modalIsOpen={openModal} closeModal={() => setOpenModal(false)} />
+      <CalculationComponent modalIsOpen={close18Percent} closePopup={() => setClose18Percent(false)} />
+      <button onClick={() => setClose18Percent(true)}>Try 18%</button>
       <button onClick={() => setOpenModal(true)}>Try</button>
     </div>
   );
