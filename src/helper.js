@@ -13,7 +13,7 @@ export const actualList = [
   {
     name: "Nagadevi",
     date: "05/06/2024",
-    amount: 20000,
+    amount: 30000,
     rate: "2.00",
     status: true,
   },
