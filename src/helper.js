@@ -31,13 +31,13 @@ export const actualList = [
     rate: "2.00",
     status: true,
   },
-  {
-    name: "Hanuman",
-    date: "02/05/2024",
-    amount: 200000,
-    rate: "2.50",
-    status: true,
-  },
+  // {
+  //   name: "Hanuman",
+  //   date: "02/05/2024",
+  //   amount: 200000,
+  //   rate: "2.50",
+  //   status: true,
+  // },
   {
     name: "Bike",
     date: "26/03/2024",
