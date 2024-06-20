@@ -11,6 +11,20 @@ export const actualList = [
   // { name: "Bike", date: "04/12/2021", amount: 50000, rate: "2.00" ,status:'paid'},
   // { name: "Bike", date: "01/08/2022", amount: 100000, rate: "2.50" ,status:'paid'},
   {
+    name: "Raju ZPHS",
+    date: "17/06/2024",
+    amount: 50000,
+    rate: "2.00",
+    status: true,
+  },
+  {
+    name: "Ramakrishna",
+    date: "11/06/2024",
+    amount: 100000,
+    rate: "2.50",
+    status: true,
+  },
+  {
     name: "Nagadevi",
     date: "05/06/2024",
     amount: 30000,
@@ -27,13 +41,6 @@ export const actualList = [
   {
     name: "Bike",
     date: "26/03/2024",
-    amount: 100000,
-    rate: "2.00",
-    status: true,
-  },
-  {
-    name: "Raju",
-    date: "23/12/2023",
     amount: 100000,
     rate: "2.00",
     status: true,
