@@ -96,11 +96,18 @@ export const actualList = [
   // { name: "Ponamanda", date: "27/02/2023", amount: 200000, rate: "2.50", status: true, },
   {
     name: "Sattibabu",
-    date: "03/11/2022",
-    amount: 60000,
+    date: "11/08/2024",
+    amount: 51500,
     rate: "2.50",
     status: true,
   },
+  // {
+  //   name: "Sattibabu",
+  //   date: "03/11/2022",
+  //   amount: 60000,
+  //   rate: "2.50",
+  //   status: true,
+  // },
   {
     name: "Anji",
     date: "12/09/2022",
