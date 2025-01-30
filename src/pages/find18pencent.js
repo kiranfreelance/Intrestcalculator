@@ -9,7 +9,7 @@ const CalculationComponent = (props) => {
     const value = event.target.value;
     if (!isNaN(value) && value.trim() !== "") {
       const numericValue = parseFloat(value);
-      const twoPercent = numericValue * 0.02;
+      const twoPercent = numericValue * 0.025;
       const onePercent = numericValue * 0.01;
       const eighteenPercentOfOnePercent = onePercent * 0.18;
       const finalResult =
