@@ -20,6 +20,7 @@ export const actualList = [
     rate: "2.00",
     status: true,
   },
+  
   // {
   //   name: "Bommidipalem",
   //   date: "11/12/2024",
