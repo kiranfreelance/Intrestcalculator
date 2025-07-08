@@ -20,7 +20,7 @@ export const actualList = [
     rate: "2.00",
     status: true,
   },
-  
+
   // {
   //   name: "Bommidipalem",
   //   date: "11/12/2024",
@@ -28,10 +28,17 @@ export const actualList = [
   //   rate: "2.00",
   //   status: true,
   // },
+  // {
+  //   name: "Bike",
+  //   date: "11/08/2024",
+  //   amount: 100000,
+  //   rate: "2.00",
+  //   status: true,
+  // },
   {
     name: "Bike",
-    date: "11/08/2024",
-    amount: 100000,
+    date: "11/07/2025",
+    amount: 70000,
     rate: "2.00",
     status: true,
   },
@@ -103,6 +110,20 @@ export const actualList = [
     date: "01/02/2025",
     amount: 46800,
     rate: "0.00",
+    status: true,
+  },
+  {
+    name: "Bike",
+    date: "08/07/2025",
+    amount: '-20000',
+    rate: "0.00",
+    status: true,
+  },
+   {
+    name: "Hanuman tmpl",
+    date: "04/12/2024",
+    amount: 25000,
+    rate: "2.50",
     status: true,
   },
   // { name: "Ponamanda", date: "27/02/2023", amount: 200000, rate: "2.50", status: true, },
