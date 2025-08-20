@@ -12,6 +12,13 @@ export const actualList = [
   // { name: "Bike", date: "01/08/2022", amount: 100000, rate: "2.50" ,status:'paid'},
   // { name: "Bommidipalem", date: "24/04/2025", amount: 100000, rate: "2.00", status: true },
   // { name: "Bommidipalem", date: "24/04/2025", amount: 1000, rate: "0.00", status: false },
+  {
+    name: "Bike",
+    date: "09/08/2025",
+    amount: 50000,
+    rate: "2.00",
+    status: true,
+  },
 
   {
     name: "Raju ZPHS",
@@ -113,13 +120,13 @@ export const actualList = [
     status: true,
   },
   {
-    name: "Bike",
+    name: "Bike-returncash",
     date: "08/07/2025",
-    amount: '-20000',
+    amount: 20000,
     rate: "0.00",
     status: true,
   },
-   {
+  {
     name: "Hanuman tmpl",
     date: "04/12/2024",
     amount: 25000,
