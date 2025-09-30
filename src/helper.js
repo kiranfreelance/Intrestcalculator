@@ -13,6 +13,13 @@ export const actualList = [
   // { name: "Bommidipalem", date: "24/04/2025", amount: 100000, rate: "2.00", status: true },
   // { name: "Bommidipalem", date: "24/04/2025", amount: 1000, rate: "0.00", status: false },
   {
+    name: "Raju ZPHS",
+    date: "15/09/2025",
+    amount: 150000,
+    rate: "2.00",
+    status: true,
+  },
+  {
     name: "Bike",
     date: "09/08/2025",
     amount: 50000,
@@ -20,13 +27,13 @@ export const actualList = [
     status: true,
   },
 
-  {
-    name: "Raju ZPHS",
-    date: "05/04/2025",
-    amount: 300000,
-    rate: "2.00",
-    status: true,
-  },
+  // {
+  //   name: "Raju ZPHS",
+  //   date: "05/04/2025",
+  //   amount: 300000,
+  //   rate: "2.00",
+  //   status: true,
+  // },
 
   // {
   //   name: "Bommidipalem",
@@ -50,19 +57,40 @@ export const actualList = [
     status: true,
   },
   {
-    name: "Raju ZPHS",
-    date: "24/07/2024",
-    amount: 50000,
+    name: "Bike-returncash for 1 lakh",
+    date: "08/07/2025",
+    amount: 20000,
+    rate: "0.00",
+    status: true,
+  },
+  {
+    name: "Bike",
+    date: "01/02/2025", // Revised date: "01/04/2023",
+    amount: 220000,
     rate: "2.00",
     status: true,
   },
   {
-    name: "Raju ZPHS",
-    date: "20/07/2024",
-    amount: 50000,
-    rate: "2.00",
+    name: "Bike-intrest bhaki",
+    date: "01/02/2025",
+    amount: 46800,
+    rate: "0.00",
     status: true,
   },
+  // {
+  //   name: "Raju ZPHS",
+  //   date: "24/07/2024",
+  //   amount: 50000,
+  //   rate: "2.00",
+  //   status: true,
+  // },
+  // {
+  //   name: "Raju ZPHS",
+  //   date: "20/07/2024",
+  //   amount: 50000,
+  //   rate: "2.00",
+  //   status: true,
+  // },
   {
     name: "Nagadevi",
     date: "17/07/2024",
@@ -77,13 +105,13 @@ export const actualList = [
     rate: "2.00",
     status: true,
   },
-  {
-    name: "Raju ZPHS",
-    date: "17/06/2024",
-    amount: 50000,
-    rate: "2.00",
-    status: true,
-  },
+  // {
+  //   name: "Raju ZPHS",
+  //   date: "17/06/2024",
+  //   amount: 50000,
+  //   rate: "2.00",
+  //   status: true,
+  // },
   // { name: "Ramakrishna", date: "11/06/2024", amount: 100000, rate: "2.50", status: true },
   {
     name: "Nagadevi",
@@ -105,27 +133,6 @@ export const actualList = [
   // { name: "CM", date: "04/09/2023", amount: 500000, rate: "2.00", status: true, },
   // { name: "Hanuman tmpl", date: "29/07/2023", amount: 200000, rate: "2.50", status: true, },
   // { name: "Bike", date: "20/07/2023", amount: 100000, rate: "2.50", status: true, },
-  {
-    name: "Bike",
-    date: "01/02/2025", // Revised date: "01/04/2023",
-    amount: 220000,
-    rate: "2.00",
-    status: true,
-  },
-  {
-    name: "Bike",
-    date: "01/02/2025",
-    amount: 46800,
-    rate: "0.00",
-    status: true,
-  },
-  {
-    name: "Bike-returncash",
-    date: "08/07/2025",
-    amount: 20000,
-    rate: "0.00",
-    status: true,
-  },
   {
     name: "Hanuman tmpl",
     date: "04/12/2024",
@@ -149,20 +156,20 @@ export const actualList = [
   //   rate: "2.50",
   //   status: true,
   // },
-  {
-    name: "Anji",
-    date: "12/09/2022",
-    amount: 100000,
-    rate: "2.00",
-    status: true,
-  },
-  {
-    name: "Anji",
-    date: "12/09/2022",
-    amount: 6000,
-    rate: "0.00",
-    status: true,
-  },
+  // {
+  //   name: "Anji",
+  //   date: "12/09/2022",
+  //   amount: 100000,
+  //   rate: "2.00",
+  //   status: true,
+  // },
+  // {
+  //   name: "Anji",
+  //   date: "12/09/2022",
+  //   amount: 6000,
+  //   rate: "0.00",
+  //   status: true,
+  // },
 ];
 
 export const getIntrest = (item, endDate) => {
