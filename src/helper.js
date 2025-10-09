@@ -13,6 +13,13 @@ export const actualList = [
   // { name: "Bommidipalem", date: "24/04/2025", amount: 100000, rate: "2.00", status: true },
   // { name: "Bommidipalem", date: "24/04/2025", amount: 1000, rate: "0.00", status: false },
   {
+    name: "Hanuman tmpl",
+    date: "07/10/2025",
+    amount: 200000,
+    rate: "2.00",
+    status: true,
+  },
+  {
     name: "Raju ZPHS",
     date: "15/09/2025",
     amount: 150000,
