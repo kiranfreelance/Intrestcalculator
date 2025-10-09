@@ -16,7 +16,7 @@ export const actualList = [
     name: "Hanuman tmpl",
     date: "07/10/2025",
     amount: 200000,
-    rate: "2.00",
+    rate: "2.50",
     status: true,
   },
   {
